@@ -84,3 +84,12 @@ a:hover{
 text-decoration: underline;
 text-transform: uppercase;}
 
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-color: #f1f1f1;
+  text-align: center;
+}
+td:nth-child(even), th:nth-child(even) {
+  background-color: #f1f1f1;
+}
