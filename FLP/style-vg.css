@@ -1,0 +1,55 @@
+body{
+width:900px;
+margin:0 auto;
+font-family: "Liberation Mono";
+font-size:18px}
+
+header {
+color:black;
+text-align:center;
+background-color:#f1f1f1;
+position:top;
+padding:5px
+}
+
+footer {
+color:black;
+text-align:center;
+background-color:#f1f1f1;
+position:bottom;
+padding:5px
+}
+
+nav {
+display:block;
+float:top;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+width:8em;
+padding: 5px
+}
+
+table {
+width: 100%;
+}
+
+th, td {
+font-weight: normal;
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd
+}
+
+section{
+display: block;
+margin: 2cm
+}
+
+
+main {
+text-align:justify
+}
+
+ul {
+list-style-type:none}

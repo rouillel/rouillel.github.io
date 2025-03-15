@@ -7,6 +7,11 @@ font-family: Liberation Mono;
 line-height:1.8;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
 /* Header Styles */
 .header {
   background: #f1f1f1;
@@ -84,12 +89,14 @@ a:hover{
 text-decoration: underline;
 text-transform: uppercase;}
 
-table, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-  border-color: #f1f1f1;
-  text-align: center;
+/* Table style*/
+table {
+width: 100%;
 }
-td:nth-child(even), th:nth-child(even) {
-  background-color: #f1f1f1;
+
+th, td {
+font-weight: normal;
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd
 }
